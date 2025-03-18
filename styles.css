@@ -1,0 +1,136 @@
+
+
+
+@media (max-width: 768px) {
+    /* Configuração geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    position: fixed;
+    display: flex;
+    background-color: #12336e;
+    padding: 15px;
+    justify-content: flex-end;
+    width: 100vw;
+    opacity: 0.7;
+    
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero span {
+    color: #4285F4;
+}
+
+.hero em {
+    font-style: italic;
+    color: #cccccc;
+}
+
+.hero img {
+    max-width: 500px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Seção Sobre Mim */
+.sobre {
+    padding: 40px 20px;
+    background-color: #101010;
+    margin-top: -5rem;
+}
+
+.sobre h2 span {
+    color: #4285F4;
+}
+
+.skills{
+   
+
+}
+
+.skills img {
+    width: 50px;
+    margin: 20px;
+    
+}
+
+/* Serviços */
+.servicos {
+    padding: 40px 20px;
+}
+
+.servicos h2 span {
+    color: #4285F4;
+}
+
+.servicos ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.servicos li {
+    margin: 10px 0;
+}
+
+/* Portfolio */
+.portfolio img {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #12336e;
+    padding: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+}
